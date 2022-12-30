@@ -11,7 +11,9 @@ class HomePage extends StatelessWidget {
         title: const Text('Meme of the Day'),
         backgroundColor: Colors.indigo,
       ),
-      drawer: NavDrawer(),
+      drawer: const NavDrawer(
+        selected: DrawerSelection.home,
+      ),
     );
   }
 }
